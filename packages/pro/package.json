@@ -1,0 +1,10 @@
+{
+  "name": "@hashly/pro",
+  "version": "0.1.0",
+  "license": "LicenseRef-Hashly-Commercial-1.0",
+  "type": "module",
+  "description": "Hashly Pro, Team, and white-label modules. Source-available. See LICENSE-PRO.md.",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

@@ -1,0 +1,27 @@
+name: Bug
+description: Something in Hashly does not behave as documented
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What you expected
+  - type: input
+    attributes:
+      label: Version
+      placeholder: "0.1.0"
+  - type: dropdown
+    attributes:
+      label: Where
+      options:
+        - Desktop
+        - Browser
+        - Docker
+  - type: markdown
+    attributes:
+      value: Do not paste a seed phrase, a pool API secret, or a private key.

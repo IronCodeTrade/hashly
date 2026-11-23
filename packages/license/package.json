@@ -1,0 +1,14 @@
+{
+  "name": "@hashly/license",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "Offline-verifiable Hashly licence keys. The checker is MIT; Pro modules are not.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@noble/curves": "1.8.1",
+    "@noble/hashes": "1.7.1"
+  }
+}

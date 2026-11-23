@@ -1,0 +1,12 @@
+{
+  "name": "Hashly",
+  "short_name": "Hashly",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121214",
+  "theme_color": "#121214",
+  "description": "Non-custodial wallet and mining dashboard. Hashly does not hold funds.",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

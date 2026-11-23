@@ -1,0 +1,25 @@
+appId: software.infinitas.hashly
+productName: Hashly
+copyright: Copyright © 2026 Hashly / Infinitas
+directories:
+  output: release
+files:
+  - dist-electron/**
+asar: true
+extraResources:
+  - from: ../web/dist
+    to: web
+win:
+  target:
+    - nsis
+  artifactName: Hashly-${version}-win-${arch}.${ext}
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+linux:
+  target:
+    - AppImage
+mac:
+  target:
+    - dmg

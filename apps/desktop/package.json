@@ -1,0 +1,15 @@
+{
+  "name": "@hashly/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "main": "dist-electron/main.cjs",
+  "scripts": {
+    "dev": "electron .",
+    "build": "node ../../scripts/bundle.mjs desktop"
+  },
+  "devDependencies": {
+    "electron": "33.4.0",
+    "electron-builder": "25.1.8"
+  }
+}

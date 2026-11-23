@@ -1,0 +1,19 @@
+name: Feature
+description: A change that fits a non-custodial wallet or a read-only mining dashboard
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposal
+  - type: checkboxes
+    attributes:
+      label: Constraints
+      options:
+        - label: This does not ask Hashly to hold funds, sell hashrate, or promise returns
+          required: true

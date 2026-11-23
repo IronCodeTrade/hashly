@@ -1,0 +1,14 @@
+{
+  "name": "@hashly/server",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node dist/index.cjs",
+    "dev": "HASHLY_SERVER=1 tsx src/index.ts"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}
