@@ -1,0 +1,12 @@
+{
+  "name": "@hashly/license-cli",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "hashly-license": "./dist/index.cjs"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

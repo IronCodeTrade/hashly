@@ -1,0 +1,8 @@
+node_modules
+.git
+.hashly
+apps/web/dist
+apps/server/dist
+**/*.md
+docs
+dev-keys

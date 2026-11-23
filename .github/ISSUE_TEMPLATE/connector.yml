@@ -1,0 +1,21 @@
+name: Connector
+description: Propose a read-only pool or miner connector
+title: "[connector] "
+labels: ["connector"]
+body:
+  - type: input
+    attributes:
+      label: Pool or device
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Documentation URL
+  - type: textarea
+    attributes:
+      label: Which read-only calls should Hashly make
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: Connectors must not place orders, change pools, or move coins. See docs/connectors.md.

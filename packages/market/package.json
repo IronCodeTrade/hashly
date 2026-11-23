@@ -1,0 +1,10 @@
+{
+  "name": "@hashly/market",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "Public-market mining estimates. Estimates are not promises.",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

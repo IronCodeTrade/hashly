@@ -1,0 +1,14 @@
+{
+  "name": "@hashly/connectors",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "Read-only mining connectors and the Hashly connector SDK.",
+  "exports": {
+    ".": "./src/index.ts",
+    "./node": "./src/node.ts"
+  },
+  "dependencies": {
+    "@noble/hashes": "1.7.1"
+  }
+}
